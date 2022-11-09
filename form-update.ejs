@@ -1,0 +1,45 @@
+<h1>Sửa</h1>
+<form action="/update" method="post">
+
+    <table border="1">
+        <tr>
+            <th>LABLE</th>
+            <th>VALUE</th>
+        </tr>
+        <tr>
+            <td>ID:</td>
+            <td><input type="text" name="id" value="<%= userfour.id %>"></td>
+        </tr>
+        <tr>
+            <td>Role:</td>
+            <td><input type="text" name="Role" value="<%= userfour.Role %>"></td>
+        </tr>
+        <tr>
+            <td>OpenHour:</td>
+            <td><input type="text" name="OpenHour" value="<%= userfour.OpenHour %>"></td>
+        </tr>
+        <tr>
+            <td>DefaultAccount :</td>
+            <td><input type="text" name="DefaultAccount" value="<%= userfour.DefaultAccount %>"></td>
+        </tr>
+        <tr>
+            <td>TokenLogin:</td>
+            <td><input type="text" name="TokenLogin" value="<%= userfour.TokenLogin %>"></td>
+        </tr>
+        <tr>
+            <td>DeviceID:</td>
+            <td><input type="text" name="DeviceID" value="<%= userfour.DeviceID %>"></td>
+        </tr>
+        <tr>
+            <td>FcmTokens:</td>
+            <td><input type="text" name="FcmTokens" value="<%= userfour.FcmTokens %>"></td>
+        </tr>
+        
+
+    </table>
+
+
+    
+
+    <button type="submit">Sửa</button>
+</form>
